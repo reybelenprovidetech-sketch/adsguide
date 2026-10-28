@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PH Social Ads Playbook 2026</title>
+<style>
+:root{--bg:#f6f5f1;--card:#fff;--tx:#17171c;--mu:#686872;--bd:#e5e3dc;--ac:#e8462a;--ac2:#ff9a3c;--ex:#0e9f57;--go:#2f6fe4;--av:#a86f00;--po:#d63a2f;--sh:0 1px 3px rgba(0,0,0,.06);--on:#fff}
+:root[data-theme=dark]{--bg:#0e0e11;--card:#18181d;--tx:#f3f3ef;--mu:#a2a2ad;--bd:#2b2b33;--ac:#ff6a4d;--ac2:#ffb24d;--ex:#38c880;--go:#6ea6ff;--av:#f2b53a;--po:#ff6f62;--sh:none;--on:#1a0a05}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--tx);font:16px/1.55 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+header{background:linear-gradient(135deg,#d93a1f,#a3204f);color:#fff;padding:26px 16px 30px}
+.w{max-width:960px;margin:0 auto}.top{display:flex;justify-content:space-between;align-items:flex-start;gap:12px}
+h1{font-size:clamp(1.6rem,5vw,2.4rem);margin:0 0 6px;line-height:1.15}header p{margin:0;opacity:.92;max-width:560px}
+#th{border:1px solid rgba(255,255,255,.6);background:rgba(255,255,255,.18);color:#fff;border-radius:99px;padding:8px 14px;cursor:pointer;font-size:.9rem;white-space:nowrap}
+nav{position:sticky;top:0;z-index:5;background:var(--bg);border-bottom:1px solid var(--bd)}
+.tabs{display:flex;gap:6px;overflow-x:auto;padding:10px 16px;max-width:960px;margin:0 auto}
+.tabs button{border:1px solid var(--bd);background:var(--card);color:var(--tx);padding:8px 15px;border-radius:99px;font-size:.92rem;cursor:pointer;white-space:nowrap}
+.tabs button.on{background:var(--ac);border-color:var(--ac);color:var(--on)}
+main{max-width:960px;margin:0 auto;padding:0 16px 60px}
+.card{background:var(--card);border:1px solid var(--bd);border-radius:16px;padding:16px 18px;margin-top:14px;box-shadow:var(--sh)}
+h2{font-size:1.3rem;margin:26px 0 2px}h3{font-size:1.02rem;margin:0 0 6px}.sub{color:var(--mu);margin:2px 0 4px}
+.badge{display:inline-block;font-size:.72rem;padding:2px 10px;border-radius:99px;border:1px solid var(--bd);color:var(--mu);vertical-align:middle}
+.sc{overflow-x:auto}table{width:100%;border-collapse:collapse;font-size:.88rem;min-width:540px}
+th,td{text-align:left;padding:9px 8px;border-bottom:1px solid var(--bd);vertical-align:top}th{color:var(--mu);font-size:.76rem;text-transform:uppercase;letter-spacing:.04em}
+.e{color:var(--ex);font-weight:700}.g{color:var(--go);font-weight:700}.a{color:var(--av);font-weight:700}.p{color:var(--po);font-weight:700}
+.note{color:var(--mu);font-size:.78rem;display:block}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin-top:12px}
+.kpi{background:var(--bg);border:1px solid var(--bd);border-radius:12px;padding:10px 12px}.kpi small{color:var(--mu);display:block;font-size:.74rem}.kpi b{font-size:1.25rem}
+.sl{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px 22px}.sl label{display:flex;justify-content:space-between;font-size:.88rem}.sl input{width:100%;accent-color:var(--ac)}
+select,input[type=number]{padding:9px 10px;border-radius:10px;border:1px solid var(--bd);background:var(--bg);color:var(--tx);font-size:1rem}
+.btn{display:inline-block;background:var(--ac);color:var(--on);text-decoration:none;padding:12px 20px;border-radius:12px;font-weight:700}
+ul,ol{margin:6px 0;padding-left:20px}li{margin:5px 0}
+.flag{border-left:4px solid var(--po);padding:6px 12px;margin:8px 0;background:var(--bg);border-radius:0 10px 10px 0}.flag.ok{border-color:var(--ex)}
+.two{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px}
+.hs{width:200px;flex:none;margin-left:auto}@media(max-width:760px){.hs{display:none}}
+.banner{display:flex;align-items:center;gap:14px;margin-top:26px}.banner svg{width:110px;flex:none;background:var(--card);border:1px solid var(--bd);border-radius:14px}.banner h2{margin:0}
+.chip{display:inline-flex;align-items:center;justify-content:center;width:34px;height:34px;border-radius:10px;color:#fff;font-weight:800;margin-right:8px;vertical-align:middle}
+.fun text{font:700 13px system-ui;fill:#fff}
+footer{color:var(--mu);font-size:.78rem;margin-top:28px}
+</style>
+</head>
+<body>
+<header><div class="w"><div class="top"><div><h1>PH Social Ads Playbook 2026</h1><p>Benchmarks in pesos, a budget simulator, a cost-per-message diagnosis tool and a pro workflow for Facebook, Instagram, TikTok, Shopee and Google ads in the Philippines.</p></div><svg class="hs" viewBox="0 0 200 150" aria-hidden="true"><rect x="62" y="8" width="76" height="134" rx="14" fill="#fff" opacity=".95"/><rect x="70" y="22" width="60" height="30" rx="6" fill="#ffd9cf"/><circle cx="82" cy="37" r="7" fill="#ff6a4d"/><rect x="94" y="30" width="30" height="5" rx="2" fill="#a3204f"/><rect x="94" y="39" width="22" height="5" rx="2" fill="#d9a5b5"/><rect x="72" y="104" width="10" height="24" rx="2" fill="#ffb24d"/><rect x="86" y="90" width="10" height="38" rx="2" fill="#ff6a4d"/><rect x="100" y="74" width="10" height="54" rx="2" fill="#d93a1f"/><rect x="114" y="60" width="10" height="68" rx="2" fill="#a3204f"/><path d="M72 76l18-10 14 8 20-16" stroke="#0e9f57" stroke-width="3" fill="none" stroke-linecap="round"/><circle cx="30" cy="40" r="20" fill="#ffb24d"/><text x="30" y="48" text-anchor="middle" font-size="22" font-weight="800" fill="#fff" font-family="system-ui">₱</text><rect x="146" y="30" width="48" height="28" rx="12" fill="#fff"/><path d="M158 58l-4 10 12-10z" fill="#fff"/><circle cx="160" cy="44" r="3" fill="#d93a1f"/><circle cx="170" cy="44" r="3" fill="#d93a1f"/><circle cx="180" cy="44" r="3" fill="#d93a1f"/><circle cx="168" cy="110" r="14" fill="#ffd9cf"/><path d="M162 110l5 5 9-10" stroke="#0e9f57" stroke-width="3" fill="none" stroke-linecap="round"/></svg><button id="th" aria-label="Toggle dark or light mode">☾ Dark</button></div></div></header>
+<nav><div class="tabs" id="nav"></div></nav>
+<main id="out"></main>
+<script>
+const T=['Excellent','Good','Average','Needs work'],C=['e','g','a','p'];
+const P={
+fb:{col:'#1877f2',l:'f',n:'Facebook',c:'Sourced · 2026 PH',s:'PH average CPC is about ₱9–10 and CPM about ₱75–80. A very good engagement or inquiry ad costs ₱10 or less per result.',
+m:[['Engagement & inquiries','Cost per message / inquiry','₱','l',[10,20,40],'Click-to-Messenger. ₱10 and below is elite; above ₱20 means investigate.'],
+['Engagement & inquiries','Cost per engagement','₱','l',[0.5,1,2],'Reactions, comments, shares'],
+['Traffic','CPC (link click)','₱','l',[5,9,15],'PH average ₱9–10'],
+['Traffic','CTR (link)','%','h',[2,1,0.7],'Global average about 0.72%'],
+['Awareness','CPM','₱','l',[60,80,120],'PH average ₱75–80'],
+['Leads','Cost per lead (form)','₱','l',[500,1000,1500],'High-intent average about ₱1,500'],
+['Sales','Cost per purchase','₱','l',[500,970,1200],'PH average ₱970–1,200+'],
+['Sales','ROAS','x','h',[5,3,2],'Compare with break-even ROAS']],
+t:['Reels-first, vertical 9:16 video with the hook in the first 3 seconds.','Advantage+ campaigns with broad targeting; let creative do the targeting.','Click-to-Messenger ads for inquiries; reply within minutes.','Tagalog/Taglish UGC and real customer faces beat polished studio ads.','Refresh creative every 7–14 days; frequency above 3 means fatigue.']},
+ig:{col:'linear-gradient(45deg,#f9a03c,#d6249f,#5b51d8)',l:'◎',n:'Instagram',c:'Estimate',s:'Instagram shares Meta’s auction, so costs sit slightly above Facebook, with Reels and Stories usually the cheapest placements.',
+m:[['Engagement & inquiries','Cost per message / DM','₱','l',[12,25,50],'Click-to-DM'],
+['Engagement & inquiries','Cost per engagement','₱','l',[0.6,1.2,2.5],'Likes, saves, shares'],
+['Traffic','CPC (link click)','₱','l',[6,12,20],''],
+['Traffic','CTR (link)','%','h',[1.5,0.9,0.6],'Global average about 0.59%'],
+['Awareness','CPM','₱','l',[90,140,220],'']],
+t:['Reels and Stories first; the feed image is the weakest placement.','Partnership (creator collab) ads lift trust and cut CPC.','Make the first frame readable on mute with big captions.','Saves and shares signal quality more than likes.']},
+tt:{col:'#111',l:'♪',n:'TikTok',c:'Converted from 2026 global',s:'2026 global ranges are $4–9 CPM and $0.17–1.00 CPC (about ₱245–520 and ₱10–58 at ₱58 per $1). The PH market tends to run cheaper.',
+m:[['Awareness','CPM','₱','l',[150,250,400],''],
+['Traffic','CPC','₱','l',[8,20,40],'Spark Ads usually beat standard in-feed'],
+['Traffic','CTR','%','h',[1.5,1,0.5],'Global average about 0.84%'],
+['Sales','Conversion rate','%','h',[1,0.6,0.4],'Global average about 0.46%'],
+['Sales','ROAS (TikTok Shop)','x','h',[4,2.5,1.5],'']],
+t:['Spark Ads: boost proven organic or creator posts instead of polished brand ads.','TikTok Shop is huge in the PH (about a quarter of global TikTok Shop sales).','Native, lo-fi, creator-led videos of 15–30 seconds win; hard-sell studio ads lose.','Broad targeting is cheaper; give it 3–5 creatives to learn.']},
+sh:{col:'#ee4d2d',l:'S',n:'Shopee',c:'Rough · sources conflict',s:'Keyword (search) ads usually give the best ROAS. CPC depends heavily on category: beauty and electronics are pricey.',
+m:[['Traffic','CPC (keyword ads)','₱','l',[3,8,15],'Low-competition keywords can be ₱1–5'],
+['Traffic','CTR (keyword ads)','%','h',[5,3,2],'Normal range 2–5%'],
+['Sales','Conversion rate','%','h',[8,5,3],'Normal range 3–8%'],
+['Sales','ROAS','x','h',[5,3.5,2],'Pause below 2x for 3 days; scale above 5x']],
+t:['Use auto bidding with a target ROAS first, then manual bids on winning keywords.','Over 85% of PH traffic is mobile: clear first image, short title, price and free shipping visible.','Keep daily budgets consistent and raise spend on mega sale days.','Start with long-tail keywords: lower CPC, higher conversion.']},
+gg:{col:'#34a853',l:'G',n:'Google',c:'Sourced · PH',s:'Search CPC in PH runs from under ₱7 (education) to about ₱40 (e-commerce) and about ₱51 (finance and insurance). Display clicks are far cheaper.',
+m:[['Traffic','Search CPC','₱','l',[10,25,40],'E-commerce about ₱40, finance about ₱51'],
+['Traffic','Display CPC','₱','l',[1.5,3,5],'E-commerce about ₱2'],
+['Traffic','Search CTR','%','h',[5,3,2],'Above 3% is great'],
+['Sales','Landing page conversion','%','h',[8,5,2],'PH range 2–5%']],
+t:['Intent wins: bid on “buy”, “price” and “near me” keywords.','Use Smart Bidding (Target CPA or ROAS) after 30+ conversions.','Review the search terms report weekly and add negative keywords.','A fast mobile landing page that matches the ad promise lowers CPC through Quality Score.']}
+};
+const fm=(u,v)=>u==='₱'?'₱'+(+v.toFixed(2)).toLocaleString():(+v.toFixed(2))+u;
+const rg=m=>{const[,,u,d,t]=m,f=v=>fm(u,v);return d==='l'?['≤ '+f(t[0]),f(t[0])+' – '+f(t[1]),f(t[1])+' – '+f(t[2]),'> '+f(t[2])]:['≥ '+f(t[0]),f(t[1])+' – '+f(t[0]),f(t[2])+' – '+f(t[1]),'< '+f(t[2])]};
+const rt=(m,v)=>{const[,,,d,t]=m;return d==='l'?(v<=t[0]?0:v<=t[1]?1:v<=t[2]?2:3):(v>=t[0]?0:v>=t[1]?1:v>=t[2]?2:3)};
+const sld=(id,l,mn,mx,st,v,u)=>`<div><label><span>${l}</span><b id="${id}v"></b></label><input type="range" id="${id}" min="${mn}" max="${mx}" step="${st}" value="${v}" data-u="${u}"></div>`;
+const $=i=>document.getElementById(i),pf=i=>parseFloat($(i).value);
+const lab=(el)=>{const u=el.dataset.u,v=+el.value;$(el.id+'v').textContent=u==='₱'?'₱'+v.toLocaleString():v+u};
+const bind=(ids,fn)=>ids.forEach(i=>{lab($(i));$(i).oninput=()=>{lab($(i));fn()}});
+
+const art={
+bench:'<svg %s><rect x="14" y="14" width="92" height="9" rx="4" fill="var(--ex)"/><rect x="14" y="29" width="74" height="9" rx="4" fill="var(--go)"/><rect x="14" y="44" width="54" height="9" rx="4" fill="var(--av)"/><rect x="14" y="59" width="34" height="9" rx="4" fill="var(--po)"/></svg>',
+sim:'<svg %s><rect x="16" y="46" width="14" height="22" rx="3" fill="var(--ac2)"/><rect x="36" y="34" width="14" height="34" rx="3" fill="var(--ac)"/><rect x="56" y="22" width="14" height="46" rx="3" fill="var(--go)"/><circle cx="94" cy="32" r="16" fill="var(--av)"/><text x="94" y="39" text-anchor="middle" font-size="18" font-weight="800" fill="#fff" font-family="system-ui">₱</text></svg>',
+dx:'<svg %s><circle cx="52" cy="36" r="20" fill="none" stroke="var(--ac)" stroke-width="6"/><path d="M67 51l22 20" stroke="var(--ac)" stroke-width="7" stroke-linecap="round"/><path d="M40 38l8 8 14-16" stroke="var(--ex)" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>',
+am:'<svg %s><rect x="12" y="10" width="96" height="60" rx="8" fill="var(--card)" stroke="var(--bd)" stroke-width="2"/><path d="M12 24V18a8 8 0 0 1 8-8h80a8 8 0 0 1 8 8v6z" fill="var(--go)"/><rect x="20" y="32" width="30" height="30" rx="4" fill="var(--ac2)"/><rect x="58" y="34" width="42" height="6" rx="3" fill="var(--bd)"/><rect x="58" y="46" width="32" height="6" rx="3" fill="var(--bd)"/><rect x="58" y="58" width="38" height="6" rx="3" fill="var(--ex)"/></svg>',
+pb:'<svg %s><rect x="24" y="8" width="72" height="66" rx="8" fill="var(--card)" stroke="var(--bd)" stroke-width="2"/><path d="M34 24l5 5 9-10M34 42l5 5 9-10M34 60l5 5 9-10" stroke="var(--ex)" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/><rect x="56" y="22" width="30" height="6" rx="3" fill="var(--bd)"/><rect x="56" y="40" width="30" height="6" rx="3" fill="var(--bd)"/><rect x="56" y="58" width="22" height="6" rx="3" fill="var(--bd)"/></svg>'};
+Object.keys(art).forEach(k=>art[k]=art[k].replace('%s','viewBox="0 0 120 80" aria-hidden="true"'));
+const fun=()=>{const w=[380,290,200,110],c=['#2f6fe4','#7b4fe0','#d93a1f','#0e9f57'];return '<svg class="fun" viewBox="0 0 400 184" style="width:100%;max-width:540px" aria-label="Funnel from views to customers">'+w.map((x,i)=>`<rect x="${(400-x)/2}" y="${i*46}" width="${x}" height="40" rx="9" fill="${c[i]}"/><text id="fv${i}" x="200" y="${i*46+25}" text-anchor="middle"></text>`).join('')+'</svg>'};
+const V={
+bench(){const o=Object.keys(P).map(k=>`<option value="${k}">${P[k].n}</option>`).join('');
+return `<div class="banner">${art.bench}<h2>Benchmarks by platform</h2></div><p class="sub">Pick a platform to see what Excellent, Good, Average and Needs work look like in pesos.</p>
+<div class="card"><select id="pk">${o}</select></div><div id="pbx"></div>`},
+sim(){return `<div class="banner">${art.sim}<h2>Budget simulator</h2></div><p class="sub">Move the sliders to see what a budget can produce. Start with your own account averages.</p>
+<div class="card"><div class="sl">${sld('bud','Ad spend',100,50000,100,1000,'₱')}${sld('cpm','CPM (cost per 1,000 views)',30,300,5,75,'₱')}${sld('ctr','CTR (link click rate)',0.3,5,0.1,2,'%')}${sld('mr','Click → message rate',5,60,1,30,'%')}${sld('ql','Qualified inquiries',10,90,1,40,'%')}${sld('cl','Qualified → paying customer',5,60,1,20,'%')}${sld('aov','Average order value',100,20000,100,1500,'₱')}</div></div>
+<div class="card"><div class="grid" id="kp"></div><div id="sv" style="margin-top:12px;font-weight:700"></div></div>
+<div class="card"><h3>Your funnel</h3>${fun()}</div>
+<div class="card"><h3>Cost per message vs. results for your budget</h3><div class="sc"><table id="sc"></table></div></div>
+<div class="card"><h3>How the math works</h3><ul><li>Views = spend ÷ CPM × 1,000</li><li>Clicks = views × CTR; Messages = clicks × click→message rate</li><li><b>Cost per message = CPM ÷ (10 × CTR% × message rate%)</b>. Better CTR or message rate lowers it as much as a cheaper CPM does.</li><li>ROAS = (customers × order value) ÷ spend. Compare it with your break-even ROAS = 1 ÷ profit margin.</li></ul></div>`},
+dx(){return `<div class="banner">${art.dx}<h2>Cost per message too high? Diagnose it</h2></div><p class="sub">Enter what Ads Manager shows. The tool finds the weak link in the funnel.</p>
+<div class="card"><div class="sl">${sld('tg','Your target cost per message',5,100,1,20,'₱')}${sld('dcpm','CPM',30,300,5,95,'₱')}${sld('dctr','CTR (link)',0.2,5,0.1,0.8,'%')}${sld('dmr','Click → message rate',5,60,1,15,'%')}${sld('dfq','Frequency',1,8,0.1,2.5,'×')}</div></div>
+<div class="card" id="dr"></div>
+<div class="card"><h3>Check in this order when cost per message is above ₱20</h3><div class="sc"><table><tr><th>Metric</th><th>Healthy</th><th>If off, likely cause</th><th>Fix</th></tr>
+<tr><td><b>CPM</b></td><td>₱60–100</td><td>Audience too narrow, peak season, low quality score</td><td>Go broad, add placements, avoid sale-day spikes</td></tr>
+<tr><td><b>CTR (link)</b></td><td>1%+ (2%+ is great)</td><td>Weak hook, unclear offer, creative fatigue</td><td>New first 3 seconds, clearer offer, test 3 creatives</td></tr>
+<tr><td><b>CPC (link)</b></td><td>₱5–9</td><td>Low CTR or high CPM (CPC = CPM ÷ 10 ÷ CTR%)</td><td>Fix whichever of the two is off</td></tr>
+<tr><td><b>Click → message rate</b></td><td>25%+</td><td>Messenger greeting weak, accidental clicks, unclear price</td><td>Better welcome message, say what happens after click</td></tr>
+<tr><td><b>Frequency</b></td><td>Under 3 (per week)</td><td>Audience saturated</td><td>New creative, widen audience, rotate ads</td></tr>
+<tr><td><b>Quality / Engagement / Conversion rankings</b></td><td>Average or above</td><td>Clickbait, mismatched promise</td><td>Make ad and Messenger flow say the same thing</td></tr>
+<tr><td><b>Response time</b></td><td>Under 5 minutes</td><td>Slow replies lose leads</td><td>Saved replies, instant reply, chat staff on peak hours</td></tr></table></div></div>`},
+am(){return `<div class="banner">${art.am}<h2>Ads Manager</h2></div><p class="sub">Open your business portfolio to manage ad accounts, people, pages and access.</p>
+<div class="card"><a class="btn" target="_blank" rel="noopener noreferrer" href="https://business.facebook.com/latest/settings/business_users/?nav_ref=bm_settings_redirect_migration&amp;bm_redirect_migration=true&amp;business_id=1565992804404855">Open Business Portfolio ↗</a><span class="note" style="margin-top:8px">You must be logged in to Facebook with access to this portfolio.</span></div>
+<div class="two"><div class="card"><h3>Columns to set up (save as a preset)</h3><ul><li>Results, Cost per result, Amount spent</li><li>Reach, Impressions, Frequency</li><li>CPM, CPC (link), CTR (link)</li><li>Link clicks, Messaging conversations started, Cost per messaging conversation</li><li>Quality, Engagement rate and Conversion rate rankings</li><li>Purchase ROAS (for sales)</li></ul></div>
+<div class="card"><h3>Daily check (10 minutes)</h3><ol><li>Set the date range to the last 3 days and compare with the last 7.</li><li>Sort by amount spent; look at cost per result first.</li><li>Open any ad above your target and run the diagnosis tab.</li><li>Check frequency and rankings; pause obvious losers.</li><li>Reply to every new inquiry; note the quality of leads.</li></ol></div>
+<div class="card"><h3>Setup checklist</h3><ul><li>Business verification and a payment method on file.</li><li>Pixel and Conversions API installed; test events.</li><li>Domain verified; priority events configured.</li><li>Page roles: admins limited, staff given only the access they need.</li><li>Two-factor authentication on every admin.</li></ul></div>
+<div class="card"><h3>Learning phase rules</h3><ul><li>Each ad set needs about 50 results in 7 days to leave the learning phase.</li><li>Avoid edits to budget (over 20%), audience or creative in the first 3 days.</li><li>Budget per ad set should be at least 5–10× your target cost per result per day.</li></ul></div></div>`},
+pb(){return `<div class="banner">${art.pb}<h2>Pro playbook</h2></div><p class="sub">A repeatable process for running social ads professionally.</p>
+<div class="two"><div class="card"><h3>1. Campaign structure</h3><ul><li>One goal per campaign: messages, leads or sales.</li><li>1–3 ad sets (broad, interest, retargeting) with 3–5 ads each.</li><li>Name clearly: Goal_Audience_Offer_Date.</li></ul></div>
+<div class="card"><h3>2. Creative standards</h3><ul><li>9:16 video, 15–30 seconds, hook in 3 seconds, captions on screen.</li><li>Keep text and logos out of the top and bottom 15% (UI safe zones).</li><li>One clear offer, price or benefit, and one call to action: “Message us”.</li><li>Mix: UGC, demo, testimonial, before/after (only if allowed by ad policy).</li></ul></div>
+<div class="card"><h3>3. Testing method</h3><ul><li>Test one variable at a time: hook, offer, then format.</li><li>Give each test at least ₱300–500/day and 3 days.</li><li>Decide with cost per result, not likes.</li></ul></div>
+<div class="card"><h3>4. Scaling and kill rules</h3><ul><li>Scale 20% every 2–3 days when the result is under target.</li><li>Pause an ad that spends 2–3× target cost with zero results.</li><li>Duplicate winners into new ad sets instead of editing heavily.</li></ul></div>
+<div class="card"><h3>5. Messenger inquiry flow</h3><ul><li>Instant reply with price range, delivery and next step.</li><li>Ask 1–2 qualifying questions (location, quantity).</li><li>Follow up after 1 hour and 24 hours.</li></ul></div>
+<div class="card"><h3>6. Tracking and reporting</h3><ul><li>Weekly: spend, results, cost per result, CTR, CPC, frequency, ROAS.</li><li>Use UTM links and a simple sheet for leads and closed sales.</li><li>Judge by real cost per customer, not by platform results alone.</li></ul></div>
+<div class="card"><h3>7. Compliance (PH)</h3><ul><li>Follow Meta, TikTok, Shopee and Google ad policies; avoid false health or income claims.</li><li>Handle customer data under the Data Privacy Act (RA 10173).</li><li>Keep DTI/SEC and FDA documents ready where your product needs them.</li></ul></div>
+<div class="card"><h3>8. Budget split to start</h3><ul><li>Under ₱30,000/month: one main platform, 70% proven ads, 30% tests.</li><li>Facebook/Instagram for inquiries, TikTok for reach, Shopee/Google for buyers already searching.</li></ul></div></div>
+<h2>Quick glossary</h2><div class="card"><ul><li><b>CPM</b>: cost per 1,000 impressions. <b>CPC</b>: cost per click. <b>CTR</b>: clicks ÷ impressions.</li><li><b>ROAS</b>: revenue ÷ ad spend. <b>CPA/CPL</b>: cost per action/lead. <b>Frequency</b>: average times one person saw the ad.</li></ul></div>`}
+};
+const tabs=[['bench','Benchmarks'],['sim','Simulator'],['dx','Diagnose'],['am','Ads Manager'],['pb','Playbook']];
+const nav=$('nav'),out=$('out');
+function sim(){const bud=pf('bud'),cpm=pf('cpm'),ctr=pf('ctr'),mr=pf('mr'),ql=pf('ql'),cl=pf('cl'),aov=pf('aov');
+const imp=bud/cpm*1000,clk=imp*ctr/100,msg=clk*mr/100,cpmsg=msg?bud/msg:0,qual=msg*ql/100,ord=qual*cl/100,rev=ord*aov,n=x=>Math.round(x).toLocaleString();
+const k=[['Views',n(imp)],['Link clicks',n(clk)],['CPC','₱'+(clk?bud/clk:0).toFixed(2)],['Messages',n(msg)],['Cost per message','₱'+cpmsg.toFixed(2)],['Qualified inquiries',n(qual)],['Cost per qualified','₱'+(qual?bud/qual:0).toFixed(0)],['Customers',ord.toFixed(1)],['Revenue','₱'+n(rev)],['ROAS',(rev/bud).toFixed(2)+'x']];
+[['Views',imp],['Link clicks',clk],['Messages',msg],['Customers',ord]].forEach((x,i)=>{$('fv'+i).textContent=x[0]+' · '+(i==3?ord.toFixed(1):n(x[1]))});
+$('kp').innerHTML=k.map(x=>`<div class="kpi"><small>${x[0]}</small><b>${x[1]}</b></div>`).join('');
+const r=cpmsg<=10?0:cpmsg<=20?1:cpmsg<=40?2:3;$('sv').innerHTML=`<span class="${C[r]}">Cost per message ₱${cpmsg.toFixed(2)}: ${T[r]}</span>`;
+$('sc').innerHTML='<tr><th>Cost per message</th><th>Messages</th><th>Qualified</th></tr>'+[5,10,15,20,30,50].map(c=>`<tr><td>₱${c}</td><td>${n(bud/c)}</td><td>${n(bud/c*ql/100)}</td></tr>`).join('')}
+function dx(){const tg=pf('tg'),cpm=pf('dcpm'),ctr=pf('dctr'),mr=pf('dmr'),fq=pf('dfq'),cpc=cpm/10/ctr,cm=cpc/(mr/100),f=[];
+const add=(bad,t,fx)=>f.push(`<div class="flag${bad?'':' ok'}"><b>${bad?'⚠ ':'✓ '}${t}</b>${bad?'<br>'+fx:''}</div>`);
+add(cpm>100,`CPM ₱${cpm}`,'Auction is expensive: broaden the audience, add Reels/Stories placements, avoid peak sale days.');
+add(ctr<1,`CTR ${ctr}%`,'Creative is not earning clicks: rewrite the first 3 seconds and make the offer obvious. Test 3 new hooks.');
+add(cpc>9,`CPC ₱${cpc.toFixed(2)}`,'Above the ₱9–10 PH average. Fix CPM or CTR (whichever is off above).');
+add(mr<20,`Click → message rate ${mr}%`,'People click but do not message: improve the Messenger greeting, state price and next step, check for accidental clicks.');
+add(fq>3,`Frequency ${fq}×`,'Audience is tired of the ad: refresh creative and widen the audience.');
+$('dr').innerHTML=`<h3>Result</h3><div class="kpi" style="display:inline-block"><small>Implied cost per message</small><b class="${cm<=tg?'e':'p'}">₱${cm.toFixed(2)}</b></div> <span class="note" style="display:inline">target ₱${tg} · ${cm<=tg?'on target':'above target by '+Math.round((cm/tg-1)*100)+'%'}</span>${f.join('')}`}
+function bench(){const k=$('pk').value,p=P[k],gs=[...new Set(p.m.map(x=>x[0]))];
+let h=`<div class="card"><span class="chip" style="background:${p.col}">${p.l}</span><b>${p.n}</b> <span class="badge">${p.c}</span><p class="sub">${p.s}</p></div>`;
+gs.forEach(g=>{h+=`<div class="card"><h3>Goal: ${g}</h3><div class="sc"><table><tr><th>Metric</th><th>Excellent</th><th>Good</th><th>Average</th><th>Needs work</th></tr>`;
+p.m.filter(x=>x[0]===g).forEach(m=>{const r=rg(m);h+=`<tr><td>${m[1]}${m[5]?`<span class="note">${m[5]}</span>`:''}</td><td class="e">${r[0]}</td><td class="g">${r[1]}</td><td class="a">${r[2]}</td><td class="p">${r[3]}</td></tr>`});h+='</table></div></div>'});
+h+=`<div class="card"><h3>Check my result</h3><select id="sel">${p.m.map((m,i)=>`<option value="${i}">${m[1]}</option>`).join('')}</select> <input id="val" type="number" step="any" placeholder="Your number"><div id="res" style="font-weight:700;margin-top:10px"></div></div>
+<div class="card"><h3>2026 trends and standards</h3><ul>${p.t.map(x=>`<li>${x}</li>`).join('')}</ul></div><div class="card"><b>Seasonal note:</b> costs climb in the “ber” months and on sale days (9.9, 10.10, 11.11, 12.12, payday 15/30). Judge ads against the same period.</div>`;
+$('pbx').innerHTML=h;
+const go=()=>{const v=parseFloat($('val').value),r=$('res');if(isNaN(v)){r.textContent='';return}const m=p.m[$('sel').value],i=rt(m,v);r.className=C[i];r.textContent=fm(m[2],v)+' is '+T[i]};
+$('val').oninput=go;$('sel').onchange=go}
+function show(k){nav.querySelectorAll('button').forEach(b=>b.classList.toggle('on',b.dataset.k===k));
+out.innerHTML=V[k]()+`<footer>Benchmarks are directional, not guarantees. Facebook figures: Spiralytics 2026 PH data; Google: Truelogic PH data; TikTok converted from 2026 global USD ranges at about ₱58 per $1; Shopee sources disagree; Instagram and the engagement/inquiry tiers are working estimates. Break-even ROAS = 1 ÷ margin.</footer>`;
+if(k==='bench'){$('pk').onchange=bench;bench()}
+if(k==='sim'){bind(['bud','cpm','ctr','mr','ql','cl','aov'],sim);sim()}
+if(k==='dx'){bind(['tg','dcpm','dctr','dmr','dfq'],dx);dx()}
+try{history.replaceState(null,'','#'+k)}catch(e){}window.scrollTo(0,0)}
+tabs.forEach(([k,n])=>{const b=document.createElement('button');b.textContent=n;b.dataset.k=k;b.onclick=()=>show(k);nav.appendChild(b)});
+const root=document.documentElement,tb=$('th');
+function setTheme(t){root.dataset.theme=t;tb.textContent=t==='dark'?'☀ Light':'☾ Dark';try{localStorage.setItem('theme',t)}catch(e){}}
+let st=null;try{st=localStorage.getItem('theme')}catch(e){}
+setTheme(st||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'));
+tb.onclick=()=>setTheme(root.dataset.theme==='dark'?'light':'dark');
+const h0=location.hash.slice(1);show(tabs.some(t=>t[0]===h0)?h0:'bench');
+</script>
+</body>
+</html>
